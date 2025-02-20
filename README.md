@@ -4,7 +4,7 @@
 
 This is a simple Todo List application built using HTML, CSS, JavaScript, and jQuery. The application allows users to add, delete, and mark tasks as complete. It is a useful tool for managing daily tasks and staying organized.
 
-[Todo List](https://github.com/Pr1ncePandey/Todo-List/blob/main/Todo%20List.png?raw=true)
+[Todo List](https://raw.githubusercontent.com/Pr1ncePandey/Todo-List/main/Todo%20List.png)
 
 ## Features
 
