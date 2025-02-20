@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff1e6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+}
+
+h1 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#todoInput {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f8f9fa;
+}
+
+#addTodo {
+    padding: 15px;
+    background: #4c6ef5;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#addTodo:hover {
+    background: #364fc7;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f8f9fa;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.todo-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    accent-color: #4c6ef5;
+}
+
+.todo-text {
+    flex: 1;
+    margin: 0 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.todo-item.completed {
+    background: #f8f9fa;
+    opacity: 0.7;
+}
+
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.stats {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #1557b0;
+}
+
+.delete-btn {
+    background: #dc3545;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
