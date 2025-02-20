@@ -41,6 +41,9 @@ You will need a web browser to run this application.
 3. **Mark a Task as Complete**: Click on the task to mark it as complete. Click again to mark it as incomplete.
 4. **Filter Tasks**: Use the filter options to view all tasks, only completed tasks, or only incomplete tasks.
 
+## License
+This project is licensed under the MIT License.
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
